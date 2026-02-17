@@ -1,0 +1,63 @@
+/* @import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+
+/* Poppins - English */
+body {
+  font-family: "Poppins", "Kantumruy Pro", sans-serif !important;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("@/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("@/assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Kantumruy Pro - Khmer */
+@font-face {
+  font-family: "Kantumruy Pro";
+  src: url("@/assets/fonts/KantumruyPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kantumruy Pro";
+  src: url("@/assets/fonts/KantumruyPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+:lang(en) {
+  font-family: "Poppins", sans-serif !important;
+}
+
+:lang(km) {
+  font-family: "Kantumruy Pro", sans-serif !important;
+}
